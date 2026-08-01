@@ -1,7 +1,27 @@
 aid: over
 name: Over
-description: Over is a company surfaced as a portfolio company of kindred-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Overworld is an open-science AI research lab building interactive world models -
+  AI-generated video environments that respond in real time to text prompts and
+  controller input at game-level framerates. Its open-source World Engine is a Python
+  inference library that loads Waypoint world models and LoRA adapters from HuggingFace
+  to generate playable, promptable worlds locally or in the browser. Founded by Louis
+  Castricato (CEO) and Shahbuland Matiana (Head of Mathematical Research), both formerly
+  of CarperAI and Stability AI, the team operates openly and publishes its infrastructure
+  as public open-source repositories. Overworld does not currently expose a hosted REST
+  API; its primary developer artifact is the first-party world_engine Python SDK.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://over.world/favicon/icon1.png
 url: https://raw.githubusercontent.com/api-evangelist/over/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- World Models
+- Generative AI
+- Video Generation
+- Gaming
+- Machine Learning
+- SDK
+- Python
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/over-domain-security.yml
 - type: Website
   url: https://over.world/
+- type: GitHubOrganization
+  url: https://github.com/Overworldai
+- type: SourceCode
+  url: https://github.com/Overworldai/world_engine
+- type: Documentation
+  url: https://overworld-world-engine.readthedocs-hosted.com/en/latest/index.html
+- type: APIReference
+  url: https://overworld-world-engine.readthedocs-hosted.com/en/latest/index.html
+- type: GettingStarted
+  url: https://over.world/install
+- type: Blog
+  url: https://over.world/blog
+- type: PrivacyPolicy
+  url: https://over.world/privacy
+- type: Packages
+  url: packages/over-packages.yml
+- type: SDKs
+  url: packages/over-packages.yml
+- type: LLMsTxt
+  url: llms/over-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

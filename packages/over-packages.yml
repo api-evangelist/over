@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/Overworldai/world_engine
+packages:
+- language: python
+  registry: github
+  name: world_engine
+  url: https://github.com/Overworldai/world_engine
+  install: pip install world_engine @ git+https://github.com/Overworldai/world_engine.git
+  official: true
+  description: >-
+    First-party Python inference library (the World Engine SDK) that loads Waypoint
+    world models and LoRA adapters from HuggingFace and generates interactive video
+    frames from text prompts and controller input. Provides the WorldEngine and
+    CtrlInput classes. Requires a HuggingFace token for model access. Not published
+    to PyPI - installed directly from the GitHub repository. GPL-3.0.
+    Docs: https://overworld-world-engine.readthedocs-hosted.com/en/latest/index.html
