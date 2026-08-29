@@ -10,6 +10,18 @@ description: >-
   of CarperAI and Stability AI, the team operates openly and publishes its infrastructure
   as public open-source repositories. Overworld does not currently expose a hosted REST
   API; its primary developer artifact is the first-party world_engine Python SDK.
+deliveryModel:
+  model: self-hosted
+  license: GPL-3.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -59,6 +71,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/Overworldai/world_engine/issues
 - type: License
   name: GPL-3.0
   url: https://github.com/Overworldai/world_engine/blob/main/LICENSE
