@@ -51,7 +51,7 @@ tags:
 - Generative AI
 - Video Generation
 - Gaming
-- Machine-Learning
+- Machine Learning
 - SDK
 - Python
 tags_raw:
@@ -64,6 +64,7 @@ tags_raw:
 - Machine Learning
 - SDK
 - Python
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
